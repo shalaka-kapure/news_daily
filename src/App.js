@@ -19,20 +19,6 @@ const App = () => {
         <Routes>
           <Route
             exact
-            path="/"
-            element={
-              <News
-                setProgress={setProgress}
-                apiKey={apiKey}
-                key="general"
-                pageSize={pageSize}
-                country="in"
-                category="general"
-              />
-            }
-          />
-          <Route
-            exact
             path="/news_daily"
             element={
               <News
